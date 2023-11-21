@@ -1,0 +1,73 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&subset=devanagari,latin-ext");
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif !important;
+}
+
+body{
+    background-color: #F0F0F0;
+    min-height: 100vh;
+}
+input{
+    /* width: 7rem !important; */
+    font-weight: bold !important;
+    height: 3rem;
+    font-family: "Poppins" sans-serif;
+}
+input::placeholder{
+    color:#9F9F9F !important;
+}
+input:focus{
+    border-color: #864CFF !important;
+}
+.error-message{
+    color: red;
+    font-style: italic;
+}
+h1{
+    font-size: 80px !important;
+    font-weight: bold;
+    margin: 0 !important;
+}
+.age{
+    color:#864CFF;
+}
+.center{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+label strong{
+    color: #9F9F9F;
+    font-size: 14px;
+}
+hr{
+    opacity: 0.1 !important;
+}
+.card{
+    min-width: 40rem;
+    border: none !important;
+    border-radius: 1rem;
+    border-bottom-right-radius: 5.5rem;
+}
+#line-button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.btn{
+    border-radius: 4rem !important;
+    width: 4rem;
+    height: 4rem;
+    color: white;
+    background-color: #864CFF;
+}
+.btn:hover{
+    background-color: black;
+    color: white;
+}
